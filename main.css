@@ -1,0 +1,111 @@
+ol{
+    list-style:none;
+  }
+  *{margin:0;padding:0;}
+  .icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    
+  }
+  #xxx{
+    background:white;
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+  }
+  
+  body{
+    margin:0;
+    
+    overflow:hidden;
+  }
+  .actions{
+    position:fixed;
+    top:0;
+    left:50%;
+    margin-left:-111px
+  }
+  .actions svg{
+    margin:10px 10px;
+    width:2em;
+    height:2em;
+  }
+  .actions svg.active{
+    fill:grey;
+    transform:scale(1.2);
+    transition:all 0.1s;
+  }
+  .actions > #brush{
+    display:none;
+  }
+  
+  .actions.x>#brush{
+    display:inline-block;
+  }
+  .actions.x>#eraser{
+    display:none;
+  }
+  .colors{
+    position:fixed;
+    top:66px;
+    right:25px;
+    
+  }
+  .colors li{
+    width:25px;
+    height:25px;
+    
+    margin:20px 0;
+    border-radius:50%;
+  }
+  .colors .red{
+    background:rgb(226,106,107);
+  }
+  .colors .green{
+    background:rgb(25,176,145);
+  }
+  .colors .yellow{
+    background:rgb(241,196,14);
+  }
+  .colors .blue{
+    background:rgb(54,152,219);
+  }
+  .colors .purple{
+    background:rgb(176,156,255);
+  }
+  .sizes{
+    position:fixed;
+    top:293px;
+    right:20px;
+    
+  }
+  .sizes .thin{
+    width:5px;
+    height:5px; 
+    margin:20px 3px;
+    border-radius:50%;
+    background:black;
+    border:11px solid #ddd;
+  }
+  .sizes .medium{
+     width:10px;
+    height:10px; 
+    margin:20px 3px;
+    border-radius:50%;
+    background:black;
+    border:9px solid #ddd;
+  }
+  
+  .sizes .blod{
+     width:15px;
+    height:15px; 
+    margin:20px 1px;
+    border-radius:50%;
+    background:black;
+    border:8px solid #ddd;
+  }
+  
+  
